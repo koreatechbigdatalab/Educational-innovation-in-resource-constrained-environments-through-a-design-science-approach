@@ -10,8 +10,8 @@ This repository provides supplementary materials used in the design and evaluati
 ```
 
 .
-├── chat\_data\_masked.csv             # Masked chat interaction data for privacy-safe analysis
-├── 교재 qa\_pairs-1\_TRANS.jsonl       # QA pairs generated from lecture materials for chatbot training
+├── chat_data_masked.csv             # Masked chat interaction data for privacy-safe analysis
+├── 교재 qa_pairs-1_TRANS.jsonl       # QA pairs generated from lecture materials for chatbot training
 ├── Prompt Engineering.md            # Prompt design principles and constraints used in the study
 └── README.md                        # This document
 
@@ -57,5 +57,3 @@ These materials support:
 ## 📬 Contact
 
 For questions or collaboration inquiries, please contact the corresponding author.
-
-```
