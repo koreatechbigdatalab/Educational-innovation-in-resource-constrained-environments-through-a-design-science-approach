@@ -11,7 +11,7 @@ This repository provides supplementary materials used in the design and evaluati
 
 .
 ├── chat_data_masked.csv             # Masked chat interaction data for privacy-safe analysis
-├── 교재 qa_pairs-1_TRANS.jsonl       # QA pairs generated from lecture materials for chatbot training
+├── qa_pairs-1_TRANS.jsonl       # QA pairs generated from lecture materials for chatbot training
 ├── Prompt Engineering.md            # Prompt design principles and constraints used in the study
 └── README.md                        # This document
 
@@ -29,12 +29,18 @@ This repository provides supplementary materials used in the design and evaluati
   - `session_id`, `timestamp` for contextual tracking  
 - Personally identifiable information (PII) is removed or masked.
 
-### `교재 qa_pairs-1_TRANS.jsonl`
-- A structured collection of **question-answer pairs** extracted and translated from HRD-related lecture materials.
-- Used to fine-tune or augment the chatbot's instructional responses.
-- Each JSON object includes:
-  - `question`: Generated question from textbook  
-  - `answer`: Educational response aligned with HRD content
+### ` qa_pairs-1_TRANS.jsonl`
+A structured collection of question-answer pairs extracted and translated from HRD-related lecture materials.
+
+This file served as a core training dataset for fine-tuning the sLLM-based educational chatbot.
+
+It was used to refine and enhance the chatbot’s instructional responses in alignment with HRD learning objectives.
+
+Each JSON object includes:
+
+question: A generated question derived from textbook content
+
+answer: An instructional response aligned with HRD-specific knowledge
 
 ### `Prompt Engineering.md`
 - Outlines key rules and restrictions applied when prompting the chatbot, including:
