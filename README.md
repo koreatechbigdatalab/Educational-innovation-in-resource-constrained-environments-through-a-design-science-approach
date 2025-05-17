@@ -53,10 +53,13 @@ answer: An instructional response aligned with HRD-specific knowledge
 
 ## 📌 Purpose of the Repository
 
-These materials support:
-- A design science methodology applied to develop LLM-based instructional tools in resource-limited educational contexts.
-- Evaluation of chatbot accuracy, reliability, and alignment with human resource development (HRD) learning goals.
-- Prompt and data design practices for educational NLP systems.
+This repository was created to provide supplementary materials for the associated research project.
+
+Specifically, it aims to:
+
+Illustrate the application of a design science methodology in developing LLM-based instructional tools for resource-constrained educational contexts
+
+Provide examples of prompt engineering and dataset construction practices for educational NLP systems
 
 ---
 
